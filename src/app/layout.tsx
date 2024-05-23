@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sample images",
+  title: "Pic Sample | Download Sample images",
   description: "Download sample images for your next project free of cost",
 };
 
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="md:text-[16px] text-[12px]">
       <body className={inter.className}>{children}</body>
     </html>
   );
